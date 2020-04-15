@@ -1,0 +1,336 @@
+﻿/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a:link {
+	color: #295C6F;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #295C6F;
+}
+
+body {
+	background: #6192A3 url(images/back_all.gif) repeat-x;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+#content
+{
+	margin: 0 auto;
+	width: 792px;
+	text-align: left;
+}
+
+#main
+{
+width: 778px;
+background: url(images/back_top.jpg) repeat-x top;
+padding-top: 10px;
+}
+
+#back
+{
+width: 778px;
+background: #ffffff;
+border-left: 7px solid #ffffff;
+border-right: 7px solid #ffffff;
+}
+
+#header {
+	height: 451px;
+
+}
+
+#logo {
+
+width: 758px;
+height: 300px;
+text-align: right;
+padding-right: 20px;
+padding-top: 89px;
+background: url(images/header.jpg) no-repeat;
+text-decoration: none;
+font-style: italic;
+font-size: 1.4em;
+color: #ffffff;
+}
+
+}
+#logo h2
+{
+font-size: 1.4em;
+}
+
+
+#menu
+{
+width: 778px;
+border-top: 6px solid #FFFFFF;
+height: 56px;
+background: url(images/buttons.gif) no-repeat;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu li {
+
+	display: inline;
+
+}
+
+#menu a {
+	float: left;
+	width: 129px;
+	height: 38px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 18px;
+	text-transform: uppercase;
+}
+
+#menu a:hover {
+	width: 129px;
+	height: 38px;
+	color: #0000cc;
+	text-decoration: none;
+	background: url(images/buttons_r.gif) repeat-x;
+}
+
+#right
+{
+	width: 223px;
+	float: right;
+	margin-right: 5px;
+}
+
+#right H3
+{
+width: 198px;
+height: 34px;
+font-size: 14px;
+font-weight: bold;
+padding-left: 25px;
+padding-top: 15px;
+text-transform: uppercase;
+color: #ffffff;
+background: url(images/title.gif) repeat-x
+}
+
+#right ul {
+	list-style: none;
+	margin-bottom: 10px;
+	background: url(images/title_back.gif) no-repeat top;
+}
+
+#right li  {
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+#right a {
+	color: #295C6F;
+}
+#right a:visited {
+	color: #295C6F;
+}
+
+#right p
+{
+font-size: 10px;
+}
+
+#left
+{
+text-align: justify;
+width: 500px;
+padding: 10px;
+}
+
+#left H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color: #295C6F;
+}
+
+#left a
+{
+color: #295C6F;
+text-decoration: none;
+}
+
+#left a:hover
+{
+text-decoration: underline;
+}
+
+#left p {
+	margin: 5px;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#left h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #295C6F;
+}
+
+#footer {
+	height: 54px;
+	clear: both;
+	padding-top: 20px;
+	border-top: 5px solid #6F9EAF;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: url(images/footer.gif) repeat-x top;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #333333;
+}
+
+#footer a {
+	color: #333333;
+}
+
+/*
+NEW CSA CSS STYLE CODE
+*/
+
+table {
+	border: none;
+	text-align: center;
+	width: 50%;
+/*	position: relative;
+	left: 25%;
+	right: 25%;
+	margin: 0px; */
+	margin-left: auto;
+	margin-right: auto;
+/*	padding: 0px;*/
+}
+table td {
+	border: 2px solid blue;
+}
+table.inputtable {
+ width: 100%;
+}
+table.positionstable td {
+	border: none;
+}
+table.positionstable {
+	font-size: x-small;
+}
+table.resultstable {
+	width: 100%;
+	margin: auto;
+}
+td.first {
+	width: 20%;
+	background: rgb(240,240,255);
+}
+td.second {
+	width: 25%;
+	background: rgb(220,220,255);
+}
+td.third {
+	text-align: left;
+	width: 55%;
+	background: rgb(200,200,255);
+}
+td.error {
+	border: 2px solid red;
+	background: rgb(255,220,220);
+}
+table.styled {
+	 text-align: justify;
+	 border-width: 10px;
+	 background: rgb(175,150,200);
+}
+table.styled th {
+	 text-align: center;
+	 background: rgb(175,150,200);
+	 color: white;
+}
+table.styled td {
+	 border: none;
+	 padding: 10px;
+	 background: rgb(220,220,255);
+	 color: rgb(0,0,200);
+}
+td.linkcell , th.linkcell {
+	 text-align: center;
+	 font-weight: normal;
+	 background: rgb(220,220,255);
+}
+td.linkcell:hover , th.linkcell:hover {
+	 font-weight: bold;
+	 background: rgb(240,240,255);
+	 cursor: pointer;
+}
+input[type=button], input[type=submit] {
+	width: 100%;
+	height: 100%;
+	border: blue;
+}
+#codetext {
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: small;
+	font-family: monospace;
+	white-space: pre;
+	color: rgb(50,0,255);
+	border: 1px blue dotted;
+	background: rgb(245,245,255);
+	overflow: auto;
+	overflow-y: scroll;
+	position: relative;
+	width: 90%;
+	height: 200px;
+	margin: auto;
+	opacity: 0.90;
+	-moz-opacity: 0.90;
+	filter: alpha(opacity=90);
+}
+.positionsframe {
+	border: none;
+	width: 120px;
+	height: 700px;
+	margin: 0px;
+	overflow: auto;
+}
+.imageframe {
+	width: 640px;
+	border: none;
+}
+.hidden {
+	display: none;
+}
